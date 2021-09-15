@@ -5,5 +5,6 @@ export default function createDreamTeam(members) {
       el.split('').filter(i => i !== ' ');
       return el.split('').filter(i => i !== ' ').join('')[0];
     }
-  }).reduce((result, current) => (typeof current === "string") ? result + current : result, '').toUpperCase().split('').sort().join('');
+  }).reduce((result, current) => (typeof current === "string") ? result + current : result, '').toUpperCase().
+    split('').sort().join('');
 }
