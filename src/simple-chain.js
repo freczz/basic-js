@@ -5,7 +5,7 @@ export default {
     return this.arr.length;
   },
   addLink(value) {
-    this.arr.push(` ( ${value} ) `);
+    this.arr.push(`( ${value} )`);
     return this;
   },
   removeLink(position) {
